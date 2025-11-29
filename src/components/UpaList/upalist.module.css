@@ -1,0 +1,60 @@
+.leste { color: #e53935; }
+.norte { color: #1e3a8a; }
+.sul   { color: #2e7d32; }
+.oeste { color: #f59e0b; }
+.centro { color: #6d28d9; }
+
+.containerList{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   padding: 50px;
+}
+
+.contentCards{
+   margin: 0 auto;
+   width: 1300px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.card{
+   border: 1px solid var(--fundo);
+   border-radius: 12px;
+   padding: 20px;
+   margin: 10px;
+   width: 410px;
+   box-shadow: 0 0 10px #cccccc4d;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+
+
+.card p{
+   width: fit-content;
+   padding: 5px 10px;
+   border-radius: 50px;
+   font-size: 13px;
+   color: #fff;
+   font-weight: 400;
+}
+
+.card em{
+   font-size: 14px;
+}
+
+.card a{
+   color: var(--azul);
+   width: fit-content;
+   font-weight: 600;
+   transition: .2s all;
+}
+
+.card a:hover{
+   margin-left: 10px;
+}

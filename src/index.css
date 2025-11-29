@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth!important;
 }
 
 body{
@@ -13,6 +14,7 @@ body{
   --black: #1c1c1c;
   --azul: #006cb7;
   --azul-hover: #6896cf;
+  --vermelho: #ed1c24;
 }
 
 a{
