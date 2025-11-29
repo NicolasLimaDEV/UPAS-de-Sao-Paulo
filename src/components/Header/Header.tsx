@@ -10,8 +10,8 @@ export default function Header() {
       </div>
 
       <nav className={styles.navbar}>
+        <a href="#projeto">Projeto</a>
         <a href="#upas">UPA's</a>
-        <a href="#upas">Projeto</a>
       </nav>
     </header>
   );
