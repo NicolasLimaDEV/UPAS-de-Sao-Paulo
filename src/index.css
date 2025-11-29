@@ -11,6 +11,8 @@ body{
 :root{
   --fundo: #f2f2f3;
   --black: #1c1c1c;
+  --azul: #006cb7;
+  --azul-hover: #6896cf;
 }
 
 a{
