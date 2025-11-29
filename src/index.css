@@ -5,6 +5,14 @@
 }
 
 body{
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
+:root{
+  --fundo: #f2f2f3;
+  --black: #1c1c1c;
+}
+
+a{
+  text-decoration: none;
+}

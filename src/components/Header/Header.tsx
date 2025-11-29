@@ -1,0 +1,18 @@
+import logoUPA from "../../assets/logo-upa.webp";
+import styles from "./header.module.css";
+
+export default function Header() {
+  return (
+    <header className={styles.header}>
+      <div className={styles.containerLogo}>
+        <img src={logoUPA} alt="Logo da UPA" />
+        <span>| SP</span>
+      </div>
+
+      <nav className={styles.navbar}>
+        <a href="#upas">UPA's</a>
+        <a href="#upas">Projeto</a>
+      </nav>
+    </header>
+  );
+}
