@@ -15,7 +15,8 @@
 
 .contentCards{
    margin: 0 auto;
-   width: 1300px;
+   width: 100%;
+   justify-content: center;
    display: flex;
    flex-wrap: wrap;
 }
@@ -26,7 +27,7 @@
    border-radius: 12px;
    padding: 20px;
    margin: 10px;
-   width: 410px;
+   width: 415px;
    box-shadow: 0 0 10px #cccccc4d;
    display: flex;
    flex-direction: column;
@@ -57,4 +58,22 @@
 
 .card a:hover{
    margin-left: 10px;
+}
+
+@media screen and (max-width: 1420px){
+   .card{
+      width: 550px;
+   }
+}
+
+@media screen and (max-width: 1255px){
+   .card{
+      width: 600px;
+   }
+}
+
+@media screen and (max-width: 769px){
+   .contentCards{
+      width: 100%;
+   }
 }
