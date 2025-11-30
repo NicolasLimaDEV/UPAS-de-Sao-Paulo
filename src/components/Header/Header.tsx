@@ -2,6 +2,13 @@ import logoUPA from "../../assets/logo-upa.webp";
 import styles from "./header.module.css";
 
 export default function Header() {
+  function alertPage(event: { preventDefault: () => void }) {
+    event.preventDefault();
+    alert(
+      'Em breve! Página em desenvolvimento...'
+    )
+  }
+
   return (
     <header className={styles.header}>
       <div className={styles.containerLogo}>
@@ -10,8 +17,10 @@ export default function Header() {
       </div>
 
       <nav className={styles.navbar}>
-        <a href="#projeto">Projeto</a>
-        <a href="#upas">UPA's</a>
+        <a href="#projeto" onClick={alertPage}>Projeto</a>
+        <a href="#upas">
+          UPA's
+        </a>
       </nav>
     </header>
   );

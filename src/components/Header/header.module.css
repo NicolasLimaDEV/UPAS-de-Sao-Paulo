@@ -29,6 +29,26 @@
   color: var(--black);
   font-weight: 400;
   font-size: 16px;
+  position: relative;
+}
+
+.navbar a:hover{
+  color: var(--verde);
+}
+
+.navbar a::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: var(--verde);
+  transition: .3s all;
+}
+
+.navbar a:hover::before{
+  width: 100%;
 }
 
 
