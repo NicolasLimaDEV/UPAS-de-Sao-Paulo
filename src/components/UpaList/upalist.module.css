@@ -68,12 +68,20 @@
 
 @media screen and (max-width: 1255px){
    .card{
-      width: 600px;
+      width: 620px;
+   }
+   
+   .containerList{
+      padding: 20px;
    }
 }
 
 @media screen and (max-width: 769px){
    .contentCards{
       width: 100%;
+   }
+
+   .containerList{
+      padding: 20px;
    }
 }
